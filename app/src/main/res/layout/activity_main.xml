@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnShort"
+            android:onClick="XuLyToastShort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast Short" />
+
+        <Button
+            android:id="@+id/btnLong"
+            android:onClick="XuLyToastLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnShort"
+            android:layout_marginTop="244dp"
+            android:text="Toast Long" />
+    </RelativeLayout>
+</LinearLayout>
